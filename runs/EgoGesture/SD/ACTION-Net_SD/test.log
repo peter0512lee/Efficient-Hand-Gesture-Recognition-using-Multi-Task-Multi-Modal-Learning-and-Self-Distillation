@@ -1,0 +1,4 @@
+06-05-23 17:07:ACTION-Net_SD_test_crops1_clip_num10_scale_size224_crop_size224
+06-05-23 17:22:Top-1: 95.58, Middle1@1: 90.30, Middle2@1: 91.72, Middle3@1: 95.12 
+06-05-23 20:15:ACTION-Net_SD_ema_test_crops1_clip_num10_scale_size224_crop_size224
+06-05-23 20:30:Top-1: 95.46, Middle1@1: 90.48, Middle2@1: 92.10, Middle3@1: 95.20 

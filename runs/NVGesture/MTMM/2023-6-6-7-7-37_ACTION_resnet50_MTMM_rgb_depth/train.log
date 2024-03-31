@@ -1,0 +1,415 @@
+06-06-23 07:07:'''
+06-06-23 07:07:Dir: runs/NvGesture/MTMM/2023-6-6-7-7-37_ACTION_resnet50_MTMM_rgb_depth/
+06-06-23 07:07:Notes: seed_2
+06-06-23 07:07:'''
+06-06-23 07:07:Loading dataset
+06-06-23 07:07:load model
+06-06-23 07:07:group: first_conv_weight has 1 params, lr_mult: 1, decay_mult: 1
+06-06-23 07:07:group: first_conv_bias has 0 params, lr_mult: 2, decay_mult: 0
+06-06-23 07:07:group: normal_weight has 57 params, lr_mult: 1, decay_mult: 1
+06-06-23 07:07:group: normal_bias has 1 params, lr_mult: 2, decay_mult: 0
+06-06-23 07:07:group: BN scale/shift has 114 params, lr_mult: 1, decay_mult: 0
+06-06-23 07:07:group: custom_weight has 128 params, lr_mult: 1, decay_mult: 1
+06-06-23 07:07:group: custom_bn has 32 params, lr_mult: 1, decay_mult: 0
+06-06-23 07:07:group: lr5_weight has 1 params, lr_mult: 5, decay_mult: 1
+06-06-23 07:07:group: lr10_bias has 1 params, lr_mult: 10, decay_mult: 0
+06-06-23 07:08:Epoch: [0][100/132], lr: 0.01250, data_time: 0.000 (0.006), batch_time: 0.409 (0.441), Top-1: 0.00 (4.00), Top-5: 50.00 (19.25), Loss: 3.1895 (3.8395), G_Depth_Loss: 0.2612 (0.2671)
+06-06-23 07:08:Testing Results: loss 3.45974, Top-1 7.469, Top-5 27.801
+06-06-23 07:08:Testing Results: loss 287.87863, Top-1 3.942, Top-5 19.502
+06-06-23 07:08:Best Top-1: 7.47
+06-06-23 07:08:Best EMA Top-1: 3.94
+06-06-23 07:09:Epoch: [1][100/132], lr: 0.01250, data_time: 0.000 (0.006), batch_time: 0.410 (0.417), Top-1: 12.50 (10.12), Top-5: 50.00 (32.75), Loss: 2.8265 (3.2150), G_Depth_Loss: 0.2527 (0.2521)
+06-06-23 07:10:Testing Results: loss 2.86178, Top-1 14.523, Top-5 56.017
+06-06-23 07:10:Testing Results: loss 142.02041, Top-1 3.942, Top-5 20.124
+06-06-23 07:10:Best Top-1: 14.52
+06-06-23 07:10:Best EMA Top-1: 3.94
+06-06-23 07:10:Epoch: [2][100/132], lr: 0.01250, data_time: 0.000 (0.005), batch_time: 0.411 (0.416), Top-1: 12.50 (19.50), Top-5: 75.00 (57.25), Loss: 2.2150 (2.6264), G_Depth_Loss: 0.2401 (0.2445)
+06-06-23 07:11:Testing Results: loss 2.50788, Top-1 33.195, Top-5 70.747
+06-06-23 07:11:Testing Results: loss 89.81187, Top-1 3.942, Top-5 19.710
+06-06-23 07:11:Best Top-1: 33.20
+06-06-23 07:11:Best EMA Top-1: 3.94
+06-06-23 07:12:Epoch: [3][100/132], lr: 0.01250, data_time: 0.000 (0.006), batch_time: 0.411 (0.416), Top-1: 62.50 (30.25), Top-5: 100.00 (74.00), Loss: 1.4557 (2.2150), G_Depth_Loss: 0.2385 (0.2398)
+06-06-23 07:12:Testing Results: loss 2.09928, Top-1 35.477, Top-5 77.801
+06-06-23 07:12:Testing Results: loss 57.92881, Top-1 3.942, Top-5 19.710
+06-06-23 07:12:Best Top-1: 35.48
+06-06-23 07:12:Best EMA Top-1: 3.94
+06-06-23 07:13:Epoch: [4][100/132], lr: 0.01250, data_time: 0.000 (0.005), batch_time: 0.411 (0.417), Top-1: 50.00 (39.75), Top-5: 75.00 (81.88), Loss: 1.9778 (1.9172), G_Depth_Loss: 0.2327 (0.2343)
+06-06-23 07:13:Testing Results: loss 1.90235, Top-1 43.154, Top-5 80.913
+06-06-23 07:13:Testing Results: loss 41.88675, Top-1 3.942, Top-5 19.087
+06-06-23 07:14:Best Top-1: 43.15
+06-06-23 07:14:Best EMA Top-1: 3.94
+06-06-23 07:14:Epoch: [5][100/132], lr: 0.01250, data_time: 0.000 (0.005), batch_time: 0.410 (0.417), Top-1: 50.00 (49.38), Top-5: 87.50 (86.62), Loss: 1.6915 (1.6185), G_Depth_Loss: 0.2286 (0.2289)
+06-06-23 07:15:Testing Results: loss 1.85362, Top-1 47.095, Top-5 83.610
+06-06-23 07:15:Testing Results: loss 32.41785, Top-1 3.942, Top-5 19.295
+06-06-23 07:15:Best Top-1: 47.10
+06-06-23 07:15:Best EMA Top-1: 3.94
+06-06-23 07:15:Epoch: [6][100/132], lr: 0.01250, data_time: 0.000 (0.006), batch_time: 0.410 (0.417), Top-1: 37.50 (53.25), Top-5: 100.00 (89.75), Loss: 1.9002 (1.4559), G_Depth_Loss: 0.2231 (0.2241)
+06-06-23 07:16:Testing Results: loss 2.11226, Top-1 44.606, Top-5 79.876
+06-06-23 07:16:Testing Results: loss 26.17260, Top-1 3.942, Top-5 19.087
+06-06-23 07:16:Best Top-1: 47.10
+06-06-23 07:16:Best EMA Top-1: 3.94
+06-06-23 07:17:Epoch: [7][100/132], lr: 0.01250, data_time: 0.000 (0.006), batch_time: 0.411 (0.417), Top-1: 37.50 (57.12), Top-5: 87.50 (90.62), Loss: 2.1509 (1.3262), G_Depth_Loss: 0.2151 (0.2192)
+06-06-23 07:17:Testing Results: loss 1.94438, Top-1 55.602, Top-5 86.100
+06-06-23 07:17:Testing Results: loss 21.13884, Top-1 3.942, Top-5 19.295
+06-06-23 07:17:Best Top-1: 55.60
+06-06-23 07:17:Best EMA Top-1: 3.94
+06-06-23 07:18:Epoch: [8][100/132], lr: 0.01250, data_time: 0.000 (0.005), batch_time: 0.410 (0.417), Top-1: 50.00 (62.12), Top-5: 75.00 (91.62), Loss: 1.7388 (1.2191), G_Depth_Loss: 0.2137 (0.2150)
+06-06-23 07:18:Testing Results: loss 1.91392, Top-1 50.207, Top-5 87.344
+06-06-23 07:19:Testing Results: loss 17.31638, Top-1 3.734, Top-5 19.295
+06-06-23 07:19:Best Top-1: 55.60
+06-06-23 07:19:Best EMA Top-1: 3.94
+06-06-23 07:19:Epoch: [9][100/132], lr: 0.01250, data_time: 0.000 (0.006), batch_time: 0.411 (0.416), Top-1: 87.50 (59.62), Top-5: 87.50 (91.88), Loss: 0.7720 (1.2293), G_Depth_Loss: 0.2118 (0.2110)
+06-06-23 07:20:Testing Results: loss 1.95686, Top-1 52.697, Top-5 86.515
+06-06-23 07:20:Testing Results: loss 15.29717, Top-1 3.527, Top-5 19.087
+06-06-23 07:20:Best Top-1: 55.60
+06-06-23 07:20:Best EMA Top-1: 3.94
+06-06-23 07:20:Epoch: [10][100/132], lr: 0.01250, data_time: 0.000 (0.006), batch_time: 0.410 (0.417), Top-1: 37.50 (66.00), Top-5: 75.00 (94.50), Loss: 1.8665 (1.0655), G_Depth_Loss: 0.2030 (0.2070)
+06-06-23 07:21:Testing Results: loss 1.61205, Top-1 53.112, Top-5 88.382
+06-06-23 07:21:Testing Results: loss 13.94678, Top-1 4.149, Top-5 19.502
+06-06-23 07:21:Best Top-1: 55.60
+06-06-23 07:21:Best EMA Top-1: 4.15
+06-06-23 07:22:Epoch: [11][100/132], lr: 0.01250, data_time: 0.000 (0.005), batch_time: 0.411 (0.417), Top-1: 37.50 (67.12), Top-5: 100.00 (94.38), Loss: 1.1391 (0.9804), G_Depth_Loss: 0.2027 (0.2024)
+06-06-23 07:22:Testing Results: loss 2.25767, Top-1 50.207, Top-5 85.477
+06-06-23 07:22:Testing Results: loss 12.60858, Top-1 4.149, Top-5 19.917
+06-06-23 07:22:Best Top-1: 55.60
+06-06-23 07:22:Best EMA Top-1: 4.15
+06-06-23 07:23:Epoch: [12][100/132], lr: 0.01250, data_time: 0.000 (0.006), batch_time: 0.411 (0.418), Top-1: 75.00 (70.00), Top-5: 87.50 (93.50), Loss: 0.9491 (0.9628), G_Depth_Loss: 0.1976 (0.1990)
+06-06-23 07:23:Testing Results: loss 1.67284, Top-1 59.336, Top-5 90.249
+06-06-23 07:24:Testing Results: loss 11.44728, Top-1 4.149, Top-5 19.295
+06-06-23 07:24:Best Top-1: 59.34
+06-06-23 07:24:Best EMA Top-1: 4.15
+06-06-23 07:24:Epoch: [13][100/132], lr: 0.01250, data_time: 0.000 (0.006), batch_time: 0.411 (0.417), Top-1: 75.00 (71.25), Top-5: 100.00 (95.00), Loss: 0.6998 (0.8849), G_Depth_Loss: 0.1907 (0.1948)
+06-06-23 07:25:Testing Results: loss 1.50118, Top-1 63.485, Top-5 90.871
+06-06-23 07:25:Testing Results: loss 10.79506, Top-1 4.149, Top-5 20.332
+06-06-23 07:25:Best Top-1: 63.49
+06-06-23 07:25:Best EMA Top-1: 4.15
+06-06-23 07:25:Epoch: [14][100/132], lr: 0.01250, data_time: 0.000 (0.006), batch_time: 0.411 (0.417), Top-1: 75.00 (72.62), Top-5: 100.00 (96.88), Loss: 0.5689 (0.8067), G_Depth_Loss: 0.1873 (0.1910)
+06-06-23 07:26:Testing Results: loss 1.59992, Top-1 60.996, Top-5 86.100
+06-06-23 07:26:Testing Results: loss 9.84528, Top-1 3.112, Top-5 20.332
+06-06-23 07:26:Best Top-1: 63.49
+06-06-23 07:26:Best EMA Top-1: 4.15
+06-06-23 07:27:Epoch: [15][100/132], lr: 0.01250, data_time: 0.000 (0.005), batch_time: 0.411 (0.417), Top-1: 75.00 (74.25), Top-5: 100.00 (95.38), Loss: 0.8149 (0.7994), G_Depth_Loss: 0.1817 (0.1870)
+06-06-23 07:27:Testing Results: loss 1.83446, Top-1 56.432, Top-5 90.664
+06-06-23 07:27:Testing Results: loss 9.12736, Top-1 2.490, Top-5 20.124
+06-06-23 07:27:Best Top-1: 63.49
+06-06-23 07:27:Best EMA Top-1: 4.15
+06-06-23 07:28:Epoch: [16][100/132], lr: 0.01250, data_time: 0.000 (0.006), batch_time: 0.411 (0.417), Top-1: 75.00 (72.75), Top-5: 87.50 (96.00), Loss: 1.1359 (0.8216), G_Depth_Loss: 0.1854 (0.1833)
+06-06-23 07:28:Testing Results: loss 1.74943, Top-1 59.751, Top-5 87.967
+06-06-23 07:29:Testing Results: loss 8.71329, Top-1 2.905, Top-5 22.822
+06-06-23 07:29:Best Top-1: 63.49
+06-06-23 07:29:Best EMA Top-1: 4.15
+06-06-23 07:29:Epoch: [17][100/132], lr: 0.01250, data_time: 0.000 (0.006), batch_time: 0.411 (0.416), Top-1: 87.50 (75.00), Top-5: 100.00 (96.00), Loss: 0.3681 (0.7436), G_Depth_Loss: 0.1763 (0.1800)
+06-06-23 07:30:Testing Results: loss 1.39719, Top-1 61.826, Top-5 90.456
+06-06-23 07:30:Testing Results: loss 8.51922, Top-1 3.527, Top-5 21.784
+06-06-23 07:30:Best Top-1: 63.49
+06-06-23 07:30:Best EMA Top-1: 4.15
+06-06-23 07:30:Epoch: [18][100/132], lr: 0.01250, data_time: 0.000 (0.006), batch_time: 0.411 (0.418), Top-1: 62.50 (74.25), Top-5: 100.00 (95.38), Loss: 0.8040 (0.8172), G_Depth_Loss: 0.1767 (0.1768)
+06-06-23 07:31:Testing Results: loss 1.51108, Top-1 58.506, Top-5 87.967
+06-06-23 07:31:Testing Results: loss 8.45483, Top-1 4.149, Top-5 20.747
+06-06-23 07:31:Best Top-1: 63.49
+06-06-23 07:31:Best EMA Top-1: 4.15
+06-06-23 07:32:Epoch: [19][100/132], lr: 0.01250, data_time: 0.000 (0.006), batch_time: 0.411 (0.418), Top-1: 75.00 (77.25), Top-5: 100.00 (94.38), Loss: 0.7576 (0.7399), G_Depth_Loss: 0.1699 (0.1734)
+06-06-23 07:32:Testing Results: loss 1.33517, Top-1 62.033, Top-5 88.797
+06-06-23 07:32:Testing Results: loss 8.41058, Top-1 4.149, Top-5 20.747
+06-06-23 07:32:Best Top-1: 63.49
+06-06-23 07:32:Best EMA Top-1: 4.15
+06-06-23 07:33:Epoch: [20][100/132], lr: 0.01250, data_time: 0.000 (0.007), batch_time: 0.411 (0.418), Top-1: 75.00 (76.12), Top-5: 100.00 (96.75), Loss: 0.5611 (0.7054), G_Depth_Loss: 0.1683 (0.1706)
+06-06-23 07:33:Testing Results: loss 1.46461, Top-1 65.145, Top-5 90.871
+06-06-23 07:33:Testing Results: loss 8.40567, Top-1 4.149, Top-5 20.539
+06-06-23 07:34:Best Top-1: 65.15
+06-06-23 07:34:Best EMA Top-1: 4.15
+06-06-23 07:34:Epoch: [21][100/132], lr: 0.01250, data_time: 0.000 (0.006), batch_time: 0.411 (0.416), Top-1: 87.50 (80.88), Top-5: 87.50 (96.62), Loss: 0.6362 (0.5867), G_Depth_Loss: 0.1677 (0.1680)
+06-06-23 07:35:Testing Results: loss 1.56935, Top-1 60.373, Top-5 90.041
+06-06-23 07:35:Testing Results: loss 8.30816, Top-1 4.149, Top-5 21.577
+06-06-23 07:35:Best Top-1: 65.15
+06-06-23 07:35:Best EMA Top-1: 4.15
+06-06-23 07:35:Epoch: [22][100/132], lr: 0.01250, data_time: 0.000 (0.006), batch_time: 0.411 (0.418), Top-1: 100.00 (79.00), Top-5: 100.00 (95.75), Loss: 0.1115 (0.6783), G_Depth_Loss: 0.1607 (0.1649)
+06-06-23 07:36:Testing Results: loss 1.71388, Top-1 60.373, Top-5 89.212
+06-06-23 07:36:Testing Results: loss 7.97038, Top-1 4.149, Top-5 20.539
+06-06-23 07:36:Best Top-1: 65.15
+06-06-23 07:36:Best EMA Top-1: 4.15
+06-06-23 07:37:Epoch: [23][100/132], lr: 0.01250, data_time: 0.000 (0.006), batch_time: 0.411 (0.418), Top-1: 75.00 (79.25), Top-5: 87.50 (95.25), Loss: 0.5897 (0.6650), G_Depth_Loss: 0.1599 (0.1620)
+06-06-23 07:37:Testing Results: loss 1.37167, Top-1 64.108, Top-5 92.116
+06-06-23 07:37:Testing Results: loss 7.53460, Top-1 4.149, Top-5 19.917
+06-06-23 07:37:Best Top-1: 65.15
+06-06-23 07:37:Best EMA Top-1: 4.15
+06-06-23 07:38:Epoch: [24][100/132], lr: 0.01250, data_time: 0.000 (0.005), batch_time: 0.412 (0.417), Top-1: 100.00 (81.00), Top-5: 100.00 (97.00), Loss: 0.1054 (0.5909), G_Depth_Loss: 0.1582 (0.1589)
+06-06-23 07:38:Testing Results: loss 1.43220, Top-1 66.183, Top-5 92.324
+06-06-23 07:38:Testing Results: loss 7.15273, Top-1 4.149, Top-5 20.539
+06-06-23 07:38:Best Top-1: 66.18
+06-06-23 07:38:Best EMA Top-1: 4.15
+06-06-23 07:39:Epoch: [25][100/132], lr: 0.01250, data_time: 0.000 (0.006), batch_time: 0.411 (0.416), Top-1: 100.00 (82.38), Top-5: 100.00 (97.38), Loss: 0.2508 (0.5540), G_Depth_Loss: 0.1583 (0.1561)
+06-06-23 07:40:Testing Results: loss 1.91406, Top-1 59.959, Top-5 89.419
+06-06-23 07:40:Testing Results: loss 6.84871, Top-1 4.149, Top-5 19.710
+06-06-23 07:40:Best Top-1: 66.18
+06-06-23 07:40:Best EMA Top-1: 4.15
+06-06-23 07:40:Epoch: [26][100/132], lr: 0.01250, data_time: 0.000 (0.006), batch_time: 0.411 (0.418), Top-1: 100.00 (83.25), Top-5: 100.00 (97.12), Loss: 0.1004 (0.5694), G_Depth_Loss: 0.1515 (0.1540)
+06-06-23 07:41:Testing Results: loss 1.51485, Top-1 62.656, Top-5 92.739
+06-06-23 07:41:Testing Results: loss 6.60565, Top-1 4.149, Top-5 19.295
+06-06-23 07:41:Best Top-1: 66.18
+06-06-23 07:41:Best EMA Top-1: 4.15
+06-06-23 07:42:Epoch: [27][100/132], lr: 0.01250, data_time: 0.000 (0.005), batch_time: 0.411 (0.417), Top-1: 100.00 (85.62), Top-5: 100.00 (97.75), Loss: 0.0648 (0.4790), G_Depth_Loss: 0.1464 (0.1509)
+06-06-23 07:42:Testing Results: loss 1.46353, Top-1 63.278, Top-5 91.079
+06-06-23 07:42:Testing Results: loss 6.32431, Top-1 4.149, Top-5 19.710
+06-06-23 07:42:Best Top-1: 66.18
+06-06-23 07:42:Best EMA Top-1: 4.15
+06-06-23 07:43:Epoch: [28][100/132], lr: 0.01250, data_time: 0.000 (0.006), batch_time: 0.411 (0.417), Top-1: 87.50 (87.12), Top-5: 100.00 (97.88), Loss: 0.4252 (0.4236), G_Depth_Loss: 0.1462 (0.1487)
+06-06-23 07:43:Testing Results: loss 1.71499, Top-1 67.427, Top-5 92.739
+06-06-23 07:43:Testing Results: loss 6.14869, Top-1 4.149, Top-5 19.917
+06-06-23 07:43:Best Top-1: 67.43
+06-06-23 07:43:Best EMA Top-1: 4.15
+06-06-23 07:44:Epoch: [29][100/132], lr: 0.01250, data_time: 0.000 (0.005), batch_time: 0.411 (0.416), Top-1: 75.00 (84.12), Top-5: 87.50 (96.75), Loss: 0.6214 (0.5573), G_Depth_Loss: 0.1456 (0.1459)
+06-06-23 07:45:Testing Results: loss 1.78061, Top-1 62.448, Top-5 87.967
+06-06-23 07:45:Testing Results: loss 5.95238, Top-1 4.149, Top-5 19.917
+06-06-23 07:45:Best Top-1: 67.43
+06-06-23 07:45:Best EMA Top-1: 4.15
+06-06-23 07:45:Epoch: [30][100/132], lr: 0.01250, data_time: 0.000 (0.005), batch_time: 0.411 (0.416), Top-1: 75.00 (84.50), Top-5: 100.00 (97.75), Loss: 0.6433 (0.4737), G_Depth_Loss: 0.1434 (0.1437)
+06-06-23 07:46:Testing Results: loss 1.76524, Top-1 62.656, Top-5 90.664
+06-06-23 07:46:Testing Results: loss 5.68181, Top-1 4.149, Top-5 18.257
+06-06-23 07:46:Best Top-1: 67.43
+06-06-23 07:46:Best EMA Top-1: 4.15
+06-06-23 07:47:Epoch: [31][100/132], lr: 0.01250, data_time: 0.000 (0.006), batch_time: 0.411 (0.418), Top-1: 87.50 (85.62), Top-5: 100.00 (97.62), Loss: 0.5607 (0.4837), G_Depth_Loss: 0.1441 (0.1413)
+06-06-23 07:47:Testing Results: loss 1.77769, Top-1 61.826, Top-5 89.419
+06-06-23 07:47:Testing Results: loss 5.41526, Top-1 4.357, Top-5 18.672
+06-06-23 07:47:Best Top-1: 67.43
+06-06-23 07:47:Best EMA Top-1: 4.36
+06-06-23 07:48:Epoch: [32][100/132], lr: 0.01250, data_time: 0.000 (0.005), batch_time: 0.411 (0.416), Top-1: 87.50 (85.12), Top-5: 87.50 (97.38), Loss: 0.4313 (0.4471), G_Depth_Loss: 0.1384 (0.1390)
+06-06-23 07:48:Testing Results: loss 1.62428, Top-1 60.996, Top-5 90.041
+06-06-23 07:48:Testing Results: loss 5.15878, Top-1 4.772, Top-5 20.332
+06-06-23 07:49:Best Top-1: 67.43
+06-06-23 07:49:Best EMA Top-1: 4.77
+06-06-23 07:49:Epoch: [33][100/132], lr: 0.01250, data_time: 0.000 (0.005), batch_time: 0.411 (0.416), Top-1: 87.50 (84.75), Top-5: 87.50 (97.62), Loss: 0.4840 (0.4401), G_Depth_Loss: 0.1402 (0.1361)
+06-06-23 07:50:Testing Results: loss 2.15045, Top-1 59.751, Top-5 87.137
+06-06-23 07:50:Testing Results: loss 4.92949, Top-1 5.187, Top-5 21.162
+06-06-23 07:50:Best Top-1: 67.43
+06-06-23 07:50:Best EMA Top-1: 5.19
+06-06-23 07:50:Epoch: [34][100/132], lr: 0.01250, data_time: 0.000 (0.006), batch_time: 0.410 (0.416), Top-1: 75.00 (86.50), Top-5: 100.00 (97.50), Loss: 0.5576 (0.4062), G_Depth_Loss: 0.1303 (0.1341)
+06-06-23 07:51:Testing Results: loss 1.74564, Top-1 60.788, Top-5 89.419
+06-06-23 07:51:Testing Results: loss 4.75381, Top-1 3.734, Top-5 21.162
+06-06-23 07:51:Best Top-1: 67.43
+06-06-23 07:51:Best EMA Top-1: 5.19
+06-06-23 07:52:Epoch: [35][100/132], lr: 0.01250, data_time: 0.000 (0.006), batch_time: 0.411 (0.417), Top-1: 100.00 (88.12), Top-5: 100.00 (98.75), Loss: 0.1223 (0.3545), G_Depth_Loss: 0.1337 (0.1320)
+06-06-23 07:52:Testing Results: loss 2.27240, Top-1 56.639, Top-5 90.249
+06-06-23 07:52:Testing Results: loss 4.58843, Top-1 4.149, Top-5 21.162
+06-06-23 07:52:Best Top-1: 67.43
+06-06-23 07:52:Best EMA Top-1: 5.19
+06-06-23 07:53:Epoch: [36][100/132], lr: 0.01250, data_time: 0.000 (0.006), batch_time: 0.411 (0.417), Top-1: 100.00 (85.88), Top-5: 100.00 (96.88), Loss: 0.0619 (0.4779), G_Depth_Loss: 0.1274 (0.1298)
+06-06-23 07:53:Testing Results: loss 1.64928, Top-1 63.900, Top-5 91.286
+06-06-23 07:54:Testing Results: loss 4.42998, Top-1 4.357, Top-5 21.577
+06-06-23 07:54:Best Top-1: 67.43
+06-06-23 07:54:Best EMA Top-1: 5.19
+06-06-23 07:54:Epoch: [37][100/132], lr: 0.01250, data_time: 0.000 (0.006), batch_time: 0.411 (0.417), Top-1: 87.50 (87.75), Top-5: 100.00 (98.38), Loss: 0.3065 (0.3730), G_Depth_Loss: 0.1290 (0.1281)
+06-06-23 07:55:Testing Results: loss 1.57968, Top-1 65.353, Top-5 89.627
+06-06-23 07:55:Testing Results: loss 4.28930, Top-1 3.942, Top-5 21.369
+06-06-23 07:55:Best Top-1: 67.43
+06-06-23 07:55:Best EMA Top-1: 5.19
+06-06-23 07:55:Epoch: [38][100/132], lr: 0.01250, data_time: 0.000 (0.006), batch_time: 0.411 (0.417), Top-1: 87.50 (86.12), Top-5: 100.00 (98.75), Loss: 0.3885 (0.4231), G_Depth_Loss: 0.1260 (0.1257)
+06-06-23 07:56:Testing Results: loss 1.72785, Top-1 63.485, Top-5 89.419
+06-06-23 07:56:Testing Results: loss 4.13950, Top-1 3.942, Top-5 21.369
+06-06-23 07:56:Best Top-1: 67.43
+06-06-23 07:56:Best EMA Top-1: 5.19
+06-06-23 07:57:Epoch: [39][100/132], lr: 0.01250, data_time: 0.000 (0.006), batch_time: 0.411 (0.418), Top-1: 87.50 (87.88), Top-5: 100.00 (96.75), Loss: 0.4153 (0.3898), G_Depth_Loss: 0.1277 (0.1241)
+06-06-23 07:57:Testing Results: loss 1.52483, Top-1 64.938, Top-5 89.834
+06-06-23 07:57:Testing Results: loss 3.99478, Top-1 4.772, Top-5 22.614
+06-06-23 07:57:Best Top-1: 67.43
+06-06-23 07:57:Best EMA Top-1: 5.19
+06-06-23 07:58:Epoch: [40][100/132], lr: 0.01250, data_time: 0.000 (0.006), batch_time: 0.411 (0.418), Top-1: 75.00 (87.38), Top-5: 87.50 (97.62), Loss: 0.5808 (0.4241), G_Depth_Loss: 0.1248 (0.1224)
+06-06-23 07:58:Testing Results: loss 1.44858, Top-1 66.598, Top-5 93.154
+06-06-23 07:58:Testing Results: loss 3.83970, Top-1 6.639, Top-5 24.896
+06-06-23 07:58:Best Top-1: 67.43
+06-06-23 07:58:Best EMA Top-1: 6.64
+06-06-23 07:59:Epoch: [41][100/132], lr: 0.01250, data_time: 0.000 (0.006), batch_time: 0.411 (0.416), Top-1: 87.50 (87.12), Top-5: 100.00 (96.62), Loss: 0.5698 (0.4059), G_Depth_Loss: 0.1197 (0.1205)
+06-06-23 08:00:Testing Results: loss 2.10861, Top-1 56.639, Top-5 88.382
+06-06-23 08:00:Testing Results: loss 3.68976, Top-1 9.544, Top-5 27.386
+06-06-23 08:00:Best Top-1: 67.43
+06-06-23 08:00:Best EMA Top-1: 9.54
+06-06-23 08:00:Epoch: [42][100/132], lr: 0.01250, data_time: 0.000 (0.005), batch_time: 0.411 (0.417), Top-1: 75.00 (85.00), Top-5: 100.00 (98.38), Loss: 0.4330 (0.4810), G_Depth_Loss: 0.1175 (0.1182)
+06-06-23 08:01:Testing Results: loss 1.80056, Top-1 64.108, Top-5 87.759
+06-06-23 08:01:Testing Results: loss 3.54624, Top-1 12.241, Top-5 29.461
+06-06-23 08:01:Best Top-1: 67.43
+06-06-23 08:01:Best EMA Top-1: 12.24
+06-06-23 08:02:Epoch: [43][100/132], lr: 0.01250, data_time: 0.000 (0.005), batch_time: 0.411 (0.417), Top-1: 62.50 (88.38), Top-5: 100.00 (98.12), Loss: 0.8462 (0.3656), G_Depth_Loss: 0.1140 (0.1168)
+06-06-23 08:02:Testing Results: loss 1.69344, Top-1 62.033, Top-5 87.344
+06-06-23 08:02:Testing Results: loss 3.39980, Top-1 14.523, Top-5 33.195
+06-06-23 08:02:Best Top-1: 67.43
+06-06-23 08:02:Best EMA Top-1: 14.52
+06-06-23 08:03:Epoch: [44][100/132], lr: 0.01250, data_time: 0.000 (0.006), batch_time: 0.411 (0.416), Top-1: 100.00 (86.25), Top-5: 100.00 (98.12), Loss: 0.0526 (0.4210), G_Depth_Loss: 0.1175 (0.1147)
+06-06-23 08:03:Testing Results: loss 1.67636, Top-1 60.166, Top-5 89.004
+06-06-23 08:04:Testing Results: loss 3.25958, Top-1 16.183, Top-5 36.515
+06-06-23 08:04:Best Top-1: 67.43
+06-06-23 08:04:Best EMA Top-1: 16.18
+06-06-23 08:04:Epoch: [45][100/132], lr: 0.01250, data_time: 0.000 (0.006), batch_time: 0.411 (0.417), Top-1: 75.00 (87.38), Top-5: 87.50 (97.50), Loss: 1.0851 (0.3920), G_Depth_Loss: 0.1112 (0.1134)
+06-06-23 08:05:Testing Results: loss 1.73972, Top-1 65.560, Top-5 90.456
+06-06-23 08:05:Testing Results: loss 3.13386, Top-1 18.465, Top-5 42.324
+06-06-23 08:05:Best Top-1: 67.43
+06-06-23 08:05:Best EMA Top-1: 18.46
+06-06-23 08:06:Epoch: [46][100/132], lr: 0.01250, data_time: 0.000 (0.005), batch_time: 0.411 (0.416), Top-1: 100.00 (90.50), Top-5: 100.00 (98.50), Loss: 0.0953 (0.3405), G_Depth_Loss: 0.1112 (0.1121)
+06-06-23 08:06:Testing Results: loss 1.79053, Top-1 64.315, Top-5 91.286
+06-06-23 08:06:Testing Results: loss 3.01131, Top-1 21.784, Top-5 46.888
+06-06-23 08:06:Best Top-1: 67.43
+06-06-23 08:06:Best EMA Top-1: 21.78
+06-06-23 08:07:Epoch: [47][100/132], lr: 0.01250, data_time: 0.000 (0.005), batch_time: 0.411 (0.416), Top-1: 75.00 (89.50), Top-5: 100.00 (98.50), Loss: 0.3781 (0.3182), G_Depth_Loss: 0.1086 (0.1100)
+06-06-23 08:07:Testing Results: loss 1.92090, Top-1 62.241, Top-5 87.344
+06-06-23 08:07:Testing Results: loss 2.89146, Top-1 23.651, Top-5 50.830
+06-06-23 08:07:Best Top-1: 67.43
+06-06-23 08:07:Best EMA Top-1: 23.65
+06-06-23 08:08:Epoch: [48][100/132], lr: 0.01250, data_time: 0.000 (0.006), batch_time: 0.411 (0.417), Top-1: 87.50 (90.88), Top-5: 87.50 (98.38), Loss: 0.5430 (0.2975), G_Depth_Loss: 0.1093 (0.1086)
+06-06-23 08:08:Testing Results: loss 1.69610, Top-1 65.145, Top-5 89.627
+06-06-23 08:09:Testing Results: loss 2.77074, Top-1 26.556, Top-5 55.394
+06-06-23 08:09:Best Top-1: 67.43
+06-06-23 08:09:Best EMA Top-1: 26.56
+06-06-23 08:09:Epoch: [49][100/132], lr: 0.01250, data_time: 0.000 (0.006), batch_time: 0.411 (0.416), Top-1: 100.00 (91.75), Top-5: 100.00 (98.38), Loss: 0.0509 (0.2754), G_Depth_Loss: 0.1037 (0.1064)
+06-06-23 08:10:Testing Results: loss 1.41377, Top-1 67.427, Top-5 91.494
+06-06-23 08:10:Testing Results: loss 2.65684, Top-1 29.046, Top-5 57.261
+06-06-23 08:10:Best Top-1: 67.43
+06-06-23 08:10:Best EMA Top-1: 29.05
+06-06-23 08:11:Epoch: [50][100/132], lr: 0.01250, data_time: 0.000 (0.006), batch_time: 0.411 (0.417), Top-1: 87.50 (90.12), Top-5: 100.00 (97.50), Loss: 0.7515 (0.3595), G_Depth_Loss: 0.1055 (0.1058)
+06-06-23 08:11:Testing Results: loss 1.74502, Top-1 63.278, Top-5 91.494
+06-06-23 08:11:Testing Results: loss 2.55093, Top-1 30.705, Top-5 61.203
+06-06-23 08:11:Best Top-1: 67.43
+06-06-23 08:11:Best EMA Top-1: 30.71
+06-06-23 08:12:Epoch: [51][100/132], lr: 0.00125, data_time: 0.000 (0.006), batch_time: 0.411 (0.416), Top-1: 75.00 (91.25), Top-5: 87.50 (98.38), Loss: 0.6516 (0.2641), G_Depth_Loss: 0.1069 (0.1039)
+06-06-23 08:12:Testing Results: loss 1.46918, Top-1 67.220, Top-5 93.154
+06-06-23 08:12:Testing Results: loss 2.45254, Top-1 33.195, Top-5 64.730
+06-06-23 08:12:Best Top-1: 67.43
+06-06-23 08:12:Best EMA Top-1: 33.20
+06-06-23 08:13:Epoch: [52][100/132], lr: 0.00125, data_time: 0.000 (0.006), batch_time: 0.411 (0.417), Top-1: 87.50 (94.62), Top-5: 100.00 (98.12), Loss: 0.2222 (0.1913), G_Depth_Loss: 0.1013 (0.1040)
+06-06-23 08:13:Testing Results: loss 1.43809, Top-1 68.465, Top-5 92.324
+06-06-23 08:14:Testing Results: loss 2.36212, Top-1 34.232, Top-5 66.390
+06-06-23 08:14:Best Top-1: 68.46
+06-06-23 08:14:Best EMA Top-1: 34.23
+06-06-23 08:14:Epoch: [53][100/132], lr: 0.00125, data_time: 0.000 (0.006), batch_time: 0.411 (0.417), Top-1: 100.00 (93.25), Top-5: 100.00 (98.75), Loss: 0.0980 (0.1950), G_Depth_Loss: 0.1029 (0.1038)
+06-06-23 08:15:Testing Results: loss 1.42223, Top-1 67.842, Top-5 91.494
+06-06-23 08:15:Testing Results: loss 2.27655, Top-1 36.929, Top-5 69.502
+06-06-23 08:15:Best Top-1: 68.46
+06-06-23 08:15:Best EMA Top-1: 36.93
+06-06-23 08:16:Epoch: [54][100/132], lr: 0.00125, data_time: 0.000 (0.006), batch_time: 0.411 (0.416), Top-1: 100.00 (95.00), Top-5: 100.00 (99.62), Loss: 0.0185 (0.1711), G_Depth_Loss: 0.1038 (0.1036)
+06-06-23 08:16:Testing Results: loss 1.42819, Top-1 69.502, Top-5 92.531
+06-06-23 08:16:Testing Results: loss 2.19632, Top-1 39.419, Top-5 71.992
+06-06-23 08:16:Best Top-1: 69.50
+06-06-23 08:16:Best EMA Top-1: 39.42
+06-06-23 08:17:Epoch: [55][100/132], lr: 0.00125, data_time: 0.000 (0.005), batch_time: 0.411 (0.416), Top-1: 87.50 (95.00), Top-5: 100.00 (98.50), Loss: 0.1966 (0.1821), G_Depth_Loss: 0.1041 (0.1037)
+06-06-23 08:17:Testing Results: loss 1.42023, Top-1 69.917, Top-5 92.324
+06-06-23 08:17:Testing Results: loss 2.12263, Top-1 42.324, Top-5 74.066
+06-06-23 08:17:Best Top-1: 69.92
+06-06-23 08:17:Best EMA Top-1: 42.32
+06-06-23 08:18:Epoch: [56][100/132], lr: 0.00125, data_time: 0.000 (0.006), batch_time: 0.411 (0.417), Top-1: 100.00 (95.12), Top-5: 100.00 (99.25), Loss: 0.0638 (0.1753), G_Depth_Loss: 0.1023 (0.1035)
+06-06-23 08:19:Testing Results: loss 1.39106, Top-1 68.672, Top-5 91.909
+06-06-23 08:19:Testing Results: loss 2.05481, Top-1 43.361, Top-5 75.311
+06-06-23 08:19:Best Top-1: 69.92
+06-06-23 08:19:Best EMA Top-1: 43.36
+06-06-23 08:19:Epoch: [57][100/132], lr: 0.00125, data_time: 0.000 (0.006), batch_time: 0.411 (0.417), Top-1: 87.50 (92.62), Top-5: 100.00 (97.50), Loss: 0.0983 (0.2393), G_Depth_Loss: 0.1039 (0.1032)
+06-06-23 08:20:Testing Results: loss 1.40567, Top-1 69.710, Top-5 93.361
+06-06-23 08:20:Testing Results: loss 1.99136, Top-1 45.021, Top-5 75.311
+06-06-23 08:20:Best Top-1: 69.92
+06-06-23 08:20:Best EMA Top-1: 45.02
+06-06-23 08:21:Epoch: [58][100/132], lr: 0.00125, data_time: 0.000 (0.006), batch_time: 0.411 (0.417), Top-1: 100.00 (93.75), Top-5: 100.00 (97.88), Loss: 0.0238 (0.2125), G_Depth_Loss: 0.1020 (0.1030)
+06-06-23 08:21:Testing Results: loss 1.44270, Top-1 68.257, Top-5 91.909
+06-06-23 08:21:Testing Results: loss 1.93261, Top-1 46.888, Top-5 77.386
+06-06-23 08:21:Best Top-1: 69.92
+06-06-23 08:21:Best EMA Top-1: 46.89
+06-06-23 08:22:Epoch: [59][100/132], lr: 0.00125, data_time: 0.000 (0.005), batch_time: 0.411 (0.416), Top-1: 100.00 (95.12), Top-5: 100.00 (99.12), Loss: 0.0338 (0.1752), G_Depth_Loss: 0.1025 (0.1030)
+06-06-23 08:22:Testing Results: loss 1.40067, Top-1 69.087, Top-5 92.531
+06-06-23 08:22:Testing Results: loss 1.87805, Top-1 47.925, Top-5 77.801
+06-06-23 08:23:Best Top-1: 69.92
+06-06-23 08:23:Best EMA Top-1: 47.93
+06-06-23 08:23:Epoch: [60][100/132], lr: 0.00125, data_time: 0.000 (0.005), batch_time: 0.411 (0.417), Top-1: 87.50 (94.50), Top-5: 100.00 (99.12), Loss: 0.3020 (0.1740), G_Depth_Loss: 0.1029 (0.1029)
+06-06-23 08:24:Testing Results: loss 1.45960, Top-1 68.672, Top-5 92.739
+06-06-23 08:24:Testing Results: loss 1.82707, Top-1 49.170, Top-5 79.253
+06-06-23 08:24:Best Top-1: 69.92
+06-06-23 08:24:Best EMA Top-1: 49.17
+06-06-23 08:24:Epoch: [61][100/132], lr: 0.00013, data_time: 0.000 (0.005), batch_time: 0.411 (0.417), Top-1: 87.50 (95.38), Top-5: 100.00 (98.38), Loss: 0.2883 (0.1676), G_Depth_Loss: 0.1026 (0.1026)
+06-06-23 08:25:Testing Results: loss 1.49743, Top-1 68.050, Top-5 92.531
+06-06-23 08:25:Testing Results: loss 1.77926, Top-1 50.415, Top-5 80.290
+06-06-23 08:25:Best Top-1: 69.92
+06-06-23 08:25:Best EMA Top-1: 50.41
+06-06-23 08:26:Epoch: [62][100/132], lr: 0.00013, data_time: 0.000 (0.005), batch_time: 0.411 (0.416), Top-1: 87.50 (94.12), Top-5: 100.00 (98.88), Loss: 0.4569 (0.1895), G_Depth_Loss: 0.1005 (0.1029)
+06-06-23 08:26:Testing Results: loss 1.38473, Top-1 69.502, Top-5 92.116
+06-06-23 08:26:Testing Results: loss 1.73435, Top-1 50.830, Top-5 81.328
+06-06-23 08:26:Best Top-1: 69.92
+06-06-23 08:26:Best EMA Top-1: 50.83
+06-06-23 08:27:Epoch: [63][100/132], lr: 0.00013, data_time: 0.000 (0.006), batch_time: 0.411 (0.417), Top-1: 100.00 (94.62), Top-5: 100.00 (99.25), Loss: 0.0174 (0.1550), G_Depth_Loss: 0.1029 (0.1027)
+06-06-23 08:27:Testing Results: loss 1.36724, Top-1 70.539, Top-5 91.909
+06-06-23 08:28:Testing Results: loss 1.69255, Top-1 51.452, Top-5 81.950
+06-06-23 08:28:Best Top-1: 70.54
+06-06-23 08:28:Best EMA Top-1: 51.45
+06-06-23 08:28:Epoch: [64][100/132], lr: 0.00013, data_time: 0.000 (0.005), batch_time: 0.411 (0.416), Top-1: 100.00 (93.75), Top-5: 100.00 (99.12), Loss: 0.1741 (0.1980), G_Depth_Loss: 0.1034 (0.1026)
+06-06-23 08:29:Testing Results: loss 1.35780, Top-1 69.087, Top-5 92.116
+06-06-23 08:29:Testing Results: loss 1.65306, Top-1 51.660, Top-5 82.573
+06-06-23 08:29:Best Top-1: 70.54
+06-06-23 08:29:Best EMA Top-1: 51.66
+06-06-23 08:30:Epoch: [65][100/132], lr: 0.00013, data_time: 0.000 (0.006), batch_time: 0.411 (0.416), Top-1: 87.50 (95.25), Top-5: 100.00 (98.88), Loss: 0.2352 (0.1633), G_Depth_Loss: 0.1017 (0.1026)
+06-06-23 08:30:Testing Results: loss 1.44209, Top-1 68.465, Top-5 93.154
+06-06-23 08:30:Testing Results: loss 1.61587, Top-1 52.075, Top-5 82.780
+06-06-23 08:30:Best Top-1: 70.54
+06-06-23 08:30:Best EMA Top-1: 52.07
+06-06-23 08:31:Epoch: [66][100/132], lr: 0.00013, data_time: 0.000 (0.006), batch_time: 0.411 (0.417), Top-1: 100.00 (95.88), Top-5: 100.00 (98.88), Loss: 0.0292 (0.1449), G_Depth_Loss: 0.1020 (0.1025)
+06-06-23 08:31:Testing Results: loss 1.41834, Top-1 68.257, Top-5 92.116
+06-06-23 08:31:Testing Results: loss 1.58114, Top-1 52.075, Top-5 83.195
+06-06-23 08:31:Best Top-1: 70.54
+06-06-23 08:31:Best EMA Top-1: 52.07
+06-06-23 08:32:Epoch: [67][100/132], lr: 0.00013, data_time: 0.000 (0.005), batch_time: 0.411 (0.418), Top-1: 100.00 (95.88), Top-5: 100.00 (98.75), Loss: 0.0530 (0.1402), G_Depth_Loss: 0.1039 (0.1024)
+06-06-23 08:32:Testing Results: loss 1.36609, Top-1 69.295, Top-5 92.531
+06-06-23 08:33:Testing Results: loss 1.54885, Top-1 53.734, Top-5 84.232
+06-06-23 08:33:Best Top-1: 70.54
+06-06-23 08:33:Best EMA Top-1: 53.73
+06-06-23 08:33:Epoch: [68][100/132], lr: 0.00013, data_time: 0.000 (0.005), batch_time: 0.411 (0.416), Top-1: 100.00 (95.75), Top-5: 100.00 (99.25), Loss: 0.0835 (0.1373), G_Depth_Loss: 0.0999 (0.1025)
+06-06-23 08:34:Testing Results: loss 1.34401, Top-1 69.295, Top-5 92.324
+06-06-23 08:34:Testing Results: loss 1.51880, Top-1 54.149, Top-5 85.477
+06-06-23 08:34:Best Top-1: 70.54
+06-06-23 08:34:Best EMA Top-1: 54.15
+06-06-23 08:35:Epoch: [69][100/132], lr: 0.00013, data_time: 0.000 (0.005), batch_time: 0.411 (0.416), Top-1: 100.00 (94.38), Top-5: 100.00 (98.75), Loss: 0.0128 (0.1731), G_Depth_Loss: 0.1012 (0.1026)
+06-06-23 08:35:Testing Results: loss 1.42494, Top-1 67.842, Top-5 92.324
+06-06-23 08:35:Testing Results: loss 1.49085, Top-1 55.187, Top-5 85.685
+06-06-23 08:35:Best Top-1: 70.54
+06-06-23 08:35:Best EMA Top-1: 55.19
+06-06-23 08:36:Epoch: [70][100/132], lr: 0.00013, data_time: 0.000 (0.005), batch_time: 0.411 (0.417), Top-1: 87.50 (94.88), Top-5: 100.00 (99.00), Loss: 0.1138 (0.1569), G_Depth_Loss: 0.1021 (0.1026)
+06-06-23 08:36:Testing Results: loss 1.42258, Top-1 68.465, Top-5 92.531
+06-06-23 08:36:Testing Results: loss 1.46479, Top-1 54.564, Top-5 85.477
+06-06-23 08:36:Best Top-1: 70.54
+06-06-23 08:36:Best EMA Top-1: 55.19
+06-06-23 08:37:Epoch: [71][100/132], lr: 0.00001, data_time: 0.000 (0.006), batch_time: 0.411 (0.418), Top-1: 100.00 (94.38), Top-5: 100.00 (97.88), Loss: 0.0183 (0.1762), G_Depth_Loss: 0.1027 (0.1025)
+06-06-23 08:37:Testing Results: loss 1.46895, Top-1 68.050, Top-5 91.701
+06-06-23 08:38:Testing Results: loss 1.44113, Top-1 55.809, Top-5 86.100
+06-06-23 08:38:Best Top-1: 70.54
+06-06-23 08:38:Best EMA Top-1: 55.81
+06-06-23 08:38:Epoch: [72][100/132], lr: 0.00001, data_time: 0.000 (0.006), batch_time: 0.411 (0.417), Top-1: 87.50 (95.25), Top-5: 100.00 (98.75), Loss: 0.1797 (0.1647), G_Depth_Loss: 0.0998 (0.1026)
+06-06-23 08:39:Testing Results: loss 1.36165, Top-1 69.502, Top-5 92.531
+06-06-23 08:39:Testing Results: loss 1.41966, Top-1 56.432, Top-5 86.722
+06-06-23 08:39:Best Top-1: 70.54
+06-06-23 08:39:Best EMA Top-1: 56.43
+06-06-23 08:40:Epoch: [73][100/132], lr: 0.00001, data_time: 0.000 (0.006), batch_time: 0.411 (0.417), Top-1: 87.50 (94.38), Top-5: 87.50 (98.38), Loss: 0.4219 (0.1835), G_Depth_Loss: 0.1062 (0.1027)
+06-06-23 08:40:Testing Results: loss 1.37930, Top-1 68.465, Top-5 92.531
+06-06-23 08:40:Testing Results: loss 1.39952, Top-1 57.469, Top-5 87.137
+06-06-23 08:40:Best Top-1: 70.54
+06-06-23 08:40:Best EMA Top-1: 57.47
+06-06-23 08:41:Epoch: [74][100/132], lr: 0.00001, data_time: 0.000 (0.006), batch_time: 0.411 (0.417), Top-1: 100.00 (94.62), Top-5: 100.00 (98.62), Loss: 0.0545 (0.1788), G_Depth_Loss: 0.0997 (0.1025)
+06-06-23 08:41:Testing Results: loss 1.41104, Top-1 68.465, Top-5 91.701
+06-06-23 08:41:Testing Results: loss 1.38077, Top-1 57.469, Top-5 87.344
+06-06-23 08:41:Best Top-1: 70.54
+06-06-23 08:41:Best EMA Top-1: 57.47
+06-06-23 08:42:Epoch: [75][100/132], lr: 0.00001, data_time: 0.000 (0.006), batch_time: 0.411 (0.417), Top-1: 100.00 (95.00), Top-5: 100.00 (99.12), Loss: 0.1102 (0.1642), G_Depth_Loss: 0.1023 (0.1026)
+06-06-23 08:43:Testing Results: loss 1.41239, Top-1 68.880, Top-5 92.739
+06-06-23 08:43:Testing Results: loss 1.36365, Top-1 57.884, Top-5 87.759
+06-06-23 08:43:Best Top-1: 70.54
+06-06-23 08:43:Best EMA Top-1: 57.88
+06-06-23 08:43:Epoch: [76][100/132], lr: 0.00001, data_time: 0.000 (0.006), batch_time: 0.411 (0.417), Top-1: 75.00 (94.50), Top-5: 100.00 (98.75), Loss: 0.3344 (0.1707), G_Depth_Loss: 0.1021 (0.1025)
+06-06-23 08:44:Testing Results: loss 1.43798, Top-1 69.295, Top-5 91.494
+06-06-23 08:44:Testing Results: loss 1.34718, Top-1 58.299, Top-5 87.759
+06-06-23 08:44:Best Top-1: 70.54
+06-06-23 08:44:Best EMA Top-1: 58.30
+06-06-23 08:45:Epoch: [77][100/132], lr: 0.00001, data_time: 0.000 (0.006), batch_time: 0.411 (0.417), Top-1: 87.50 (95.25), Top-5: 100.00 (98.75), Loss: 0.3275 (0.1469), G_Depth_Loss: 0.1023 (0.1025)
+06-06-23 08:45:Testing Results: loss 1.37831, Top-1 68.465, Top-5 92.531
+06-06-23 08:45:Testing Results: loss 1.33208, Top-1 58.299, Top-5 88.174
+06-06-23 08:45:Best Top-1: 70.54
+06-06-23 08:45:Best EMA Top-1: 58.30
+06-06-23 08:46:Epoch: [78][100/132], lr: 0.00001, data_time: 0.000 (0.006), batch_time: 0.411 (0.417), Top-1: 100.00 (95.75), Top-5: 100.00 (98.38), Loss: 0.0565 (0.1480), G_Depth_Loss: 0.1011 (0.1025)
+06-06-23 08:46:Testing Results: loss 1.42926, Top-1 68.672, Top-5 91.701
+06-06-23 08:46:Testing Results: loss 1.31826, Top-1 58.714, Top-5 88.174
+06-06-23 08:46:Best Top-1: 70.54
+06-06-23 08:46:Best EMA Top-1: 58.71
+06-06-23 08:47:Epoch: [79][100/132], lr: 0.00001, data_time: 0.000 (0.006), batch_time: 0.411 (0.417), Top-1: 100.00 (95.00), Top-5: 100.00 (99.00), Loss: 0.0054 (0.1620), G_Depth_Loss: 0.0997 (0.1026)
+06-06-23 08:48:Testing Results: loss 1.42740, Top-1 69.295, Top-5 92.531
+06-06-23 08:48:Testing Results: loss 1.30544, Top-1 58.714, Top-5 88.589
+06-06-23 08:48:Best Top-1: 70.54
+06-06-23 08:48:Best EMA Top-1: 58.71

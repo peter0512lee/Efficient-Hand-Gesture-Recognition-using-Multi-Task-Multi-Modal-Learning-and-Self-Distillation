@@ -1,0 +1,4 @@
+06-08-23 10:45:0.01G_Depth_Predict_Next_Segment_SD_0.99_test_crops3_clip_num10_scale_size256_crop_size256
+06-08-23 10:50:Top-1: 84.44, Middle1@1: 4.56, Middle2@1: 4.15, Middle3@1: 53.94 
+06-08-23 10:56:0.01G_Depth_Predict_Next_Segment_SD_seed2_test_crops3_clip_num10_scale_size256_crop_size256
+06-08-23 11:02:Top-1: 82.16, Middle1@1: 65.15, Middle2@1: 68.88, Middle3@1: 79.67 
